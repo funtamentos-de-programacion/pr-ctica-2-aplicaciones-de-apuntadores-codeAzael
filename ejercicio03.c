@@ -14,7 +14,7 @@ int main()
     {
         for (int j = 0; j < 3; j++)
         {
-            printf("matriz[%d][%d]: %p\n", i, j, &matriz[i][j]);
+            printf("Matriz[%d][%d%] %p\n", i, j, &matriz[i][j]);
         }
     }
     return 0;
