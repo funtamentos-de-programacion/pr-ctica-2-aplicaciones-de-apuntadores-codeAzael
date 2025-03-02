@@ -4,7 +4,7 @@ int main () {
   char *ap, c, d, e; 
   c = 'x';
   d = 'z';
-  e = '\t';
+  e = 't';
 
   //Escrib el código para imprimir las direcciones de a, b y c
   ap = &c;
