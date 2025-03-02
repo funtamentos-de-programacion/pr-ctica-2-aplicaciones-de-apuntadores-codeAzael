@@ -19,7 +19,7 @@ int main() {
     // Código para ordenar y mostrar el arreglo
     int tamaño = sizeof(arr) / sizeof(arr[0]);
     ordenarBurbuja(arr, tamaño);
-    printf("Arreglo ordenado: ");
+    printf("El arreglo ordenado queda asi: ");
     for (int i = 0; i < tamaño; i++) {
         printf("%d ", *(arr + i));
     }
